@@ -1,0 +1,223 @@
+/*Background*/
+
+body {
+  background-image: url(minecraft\ grass.png);
+}
+/* Typography & Base Styles */
+.mini-title {
+  color: rgb(187, 0, 255);
+}
+
+p {
+  color: black;
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  line-height: 23px;
+  /* font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  line-height: 20px;
+  word-spacing: 0.25em; */
+  text-align: center;
+}
+ul li {
+  color: blanchedalmond;
+  font-weight: bold;
+}
+/* Grid & Page Layout */
+
+/*Grid container*/
+.container {
+  margin: 100px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 200px 70px 1fr 1fr 150px;
+}
+/* styling header*/
+.header {
+  grid-column: 1 / span 2;
+  grid-row: 1/1;
+  background-color: gray;
+  border: red solid 13px;
+}
+/*Styling nav*/
+.navigation {
+  grid-column: 1 span 2;
+  grid-row: 2/2;
+  border: yellow solid 5px;
+}
+/* styling main*/
+.main {
+  grid-column: 1/1;
+  grid-row: 3/3;
+  background-color: white;
+  border: fuchsia dotted 9px;
+  padding: 10px;
+}
+/*styling section*/
+.section {
+  grid-column: 1/1;
+  grid-row: 4/4;
+  background-color: #e0ff53;
+}
+/*.flex-container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}*/
+/*styling aside*/
+
+aside {
+  grid-column: 2/2;
+  grid-row: 3 / span 2;
+  background-color: bisque;
+}
+/*styling footer*/
+.footer {
+  grid-column: 1 / span 2;
+  grid-row: 5/5;
+  padding-bottom: 50px;
+  background-color: red;
+}
+
+*/
+/* Navigation */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background: white;
+  padding: 1rem;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+nav ul li a:hover {
+  background-color: 575757;
+  border-radius: 5px;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+li,
+a button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+/* Forms & Buttons */
+button {
+  background-color: #04aa6d; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+}
+
+input[type="text"]:focus {
+  border: 3px solid #555;
+}
+
+input[type="text"] {
+  background-color: white;
+  background-image: url("searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* Media Gallery */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.image1 {
+  width: 500px;
+}
+
+/* Footer */
+
+footer {
+  color: white;
+}
+
+/* Tablet - min-width: 768px */
+@media screen and (min-width: 768px) {
+  body {
+    background-color: burlywood#;
+  }
+}
+
+/* Small Desktop - min-width: 1024px */
+@media screen and (min-width: 1024px) {
+  body {
+    /* background-color: #; */
+  }
+}
+
+/* Large Desktop - min-width: 1200px */
+@media screen and (min-width: 1200px) {
+  body {
+    /* background-color: #; */
+  }
+}
