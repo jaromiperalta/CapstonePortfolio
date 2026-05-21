@@ -1,0 +1,44 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+}
+.profile-card {
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    background-color: #ffffff;
+    text-align: center;
+}
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    padding: 5px;
+}
+h2 {
+font-size: 24px;
+padding: 10px;
+}
+h3 {
+font-size: 18px;
+color: gray;
+padding: 15px;
+}
+p {
+font-size: 16px;
+padding: 10px;
+line-height: 1.5;
+}
+.profile-card:hover {
+  background: #e0e0e0;
+  border-color: #4eff00;
+    
+
+
+
+}

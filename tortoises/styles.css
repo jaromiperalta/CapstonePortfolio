@@ -1,0 +1,60 @@
+/* Global Styles */
+body{
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header{
+    color:white ;
+}
+
+/* Heading Styles*/
+h1{
+color: #006400;
+font-weight: bold;
+}
+
+
+h2{
+color: #000080;
+font-weight: bold;
+}
+
+/* Paragraph Styles*/
+p{
+color: #333333;
+}
+
+/* Link Styles */
+a{
+color: #008080;
+font-style: normal;
+color: #006400;
+}
+a{
+
+
+
+}
+
+/* Tablet - min-width: 768px */
+@media screen and (min-width: 768px) {
+    body {
+      background-color:#ffdfba;
+    }
+  }
+
+  /* Small Desktop - min-width: 1024px */
+  @media screen and (min-width: 1024px) {
+    body {
+      background-color:#baffc9;
+    }
+  }
+  
+/* Large Desktop - min-width: 1200px */
+@media screen and (min-width: 1200px) {
+    body {
+      background-color:#bae1ff;
+    }
+  }
